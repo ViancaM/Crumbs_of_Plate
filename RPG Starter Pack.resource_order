@@ -14,5 +14,8 @@
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":7,"path":"folders/Timelines.yy",},
   ],
-  "ResourceOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_enemy_parent","order":1,"path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},
+    {"name":"obj_enemy1","order":2,"path":"objects/obj_enemy1/obj_enemy1.yy",},
+  ],
 }
