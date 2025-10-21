@@ -3,8 +3,8 @@
   "%Name":"README",
   "name":"README",
   "parent":{
-    "name":"RPG Starter Pack",
-    "path":"RPG Starter Pack.yyp",
+    "name":"Crumbs_of_Plate",
+    "path":"Crumbs_of_Plate.yyp",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

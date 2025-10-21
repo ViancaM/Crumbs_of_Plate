@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"RPG Starter Pack",
+  "%Name":"Crumbs_of_Plate",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -34,14 +34,16 @@
   "MetaData":{
     "IDEVersion":"2024.13.1.193",
   },
-  "name":"RPG Starter Pack",
+  "name":"Crumbs_of_Plate",
   "resources":[
     {"id":{"name":"README","path":"notes/README/README.yy",},},
     {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_start_button","path":"objects/obj_start_button/obj_start_button.yy",},},
+    {"id":{"name":"Room_Start","path":"rooms/Room_Start/Room_Start.yy",},},
+    {"id":{"name":"Room_Tutorial","path":"rooms/Room_Tutorial/Room_Tutorial.yy",},},
     {"id":{"name":"spr_battle_screen","path":"sprites/spr_battle_screen/spr_battle_screen.yy",},},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},},
     {"id":{"name":"spr_button_heavy","path":"sprites/spr_button_heavy/spr_button_heavy.yy",},},
@@ -69,6 +71,8 @@
     {"id":{"name":"spr_player2_walk_up","path":"sprites/spr_player2_walk_up/spr_player2_walk_up.yy",},},
     {"id":{"name":"spr_shadow","path":"sprites/spr_shadow/spr_shadow.yy",},},
     {"id":{"name":"spr_slash","path":"sprites/spr_slash/spr_slash.yy",},},
+    {"id":{"name":"spr_start_bg","path":"sprites/spr_start_bg/spr_start_bg.yy",},},
+    {"id":{"name":"spr_start_button","path":"sprites/spr_start_button/spr_start_button.yy",},},
     {"id":{"name":"spr_talk","path":"sprites/spr_talk/spr_talk.yy",},},
     {"id":{"name":"spr_tileset","path":"sprites/spr_tileset/spr_tileset.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
@@ -76,7 +80,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room_Start","path":"rooms/Room_Start/Room_Start.yy",},},
+    {"roomId":{"name":"Room_Tutorial","path":"rooms/Room_Tutorial/Room_Tutorial.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
