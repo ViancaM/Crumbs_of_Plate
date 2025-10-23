@@ -24,6 +24,10 @@
     {"name":"obj_key","order":6,"path":"objects/obj_key/obj_key.yy",},
     {"name":"obj_playWord","order":10,"path":"objects/obj_playWord/obj_playWord.yy",},
     {"name":"obj_start_butt","order":1,"path":"objects/obj_start_butt/obj_start_butt.yy",},
+    {"name":"obj_switch_controller","order":16,"path":"objects/obj_switch_controller/obj_switch_controller.yy",},
+    {"name":"obj_switch_gret","order":13,"path":"objects/obj_switch_gret/obj_switch_gret.yy",},
+    {"name":"obj_switch_hans","order":14,"path":"objects/obj_switch_hans/obj_switch_hans.yy",},
+    {"name":"obj_switch","order":15,"path":"objects/obj_switch/obj_switch.yy",},
     {"name":"objCamera","order":2,"path":"objects/objCamera/objCamera.yy",},
     {"name":"Room_0Start","order":2,"path":"rooms/Room_0Start/Room_0Start.yy",},
     {"name":"Room_2Foyer","order":3,"path":"rooms/Room_2Foyer/Room_2Foyer.yy",},
@@ -37,5 +41,6 @@
     {"name":"spr_play","order":3,"path":"sprites/spr_play/spr_play.yy",},
     {"name":"spr_start_bg","order":1,"path":"sprites/spr_start_bg/spr_start_bg.yy",},
     {"name":"spr_start_button","order":2,"path":"sprites/spr_start_button/spr_start_button.yy",},
+    {"name":"Sprite39","order":17,"path":"sprites/Sprite39/Sprite39.yy",},
   ],
 }
