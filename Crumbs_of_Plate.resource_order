@@ -18,7 +18,9 @@
   "ResourceOrderSettings":[
     {"name":"obj_start_button","order":1,"path":"objects/obj_start_button/obj_start_button.yy",},
     {"name":"objCamera","order":2,"path":"objects/objCamera/objCamera.yy",},
-    {"name":"Room_Start","order":2,"path":"rooms/Room_Start/Room_Start.yy",},
+    {"name":"Room_0Start","order":2,"path":"rooms/Room_0Start/Room_0Start.yy",},
+    {"name":"Room_2Foyer","order":3,"path":"rooms/Room_2Foyer/Room_2Foyer.yy",},
+    {"name":"Room_3Livingroom","order":4,"path":"rooms/Room_3Livingroom/Room_3Livingroom.yy",},
     {"name":"spr_start_bg","order":1,"path":"sprites/spr_start_bg/spr_start_bg.yy",},
     {"name":"spr_start_button","order":2,"path":"sprites/spr_start_button/spr_start_button.yy",},
   ],
