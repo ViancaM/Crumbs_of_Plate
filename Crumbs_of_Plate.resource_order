@@ -16,10 +16,12 @@
     {"name":"Timelines","order":14,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_boulder","order":9,"path":"objects/obj_boulder/obj_boulder.yy",},
+    {"name":"obj_door_1","order":8,"path":"objects/obj_door_1/obj_door_1.yy",},
+    {"name":"obj_door","order":7,"path":"objects/obj_door/obj_door.yy",},
     {"name":"obj_key","order":6,"path":"objects/obj_key/obj_key.yy",},
     {"name":"obj_start_button","order":1,"path":"objects/obj_start_button/obj_start_button.yy",},
     {"name":"objCamera","order":2,"path":"objects/objCamera/objCamera.yy",},
-    {"name":"Object8","order":7,"path":"objects/Object8/Object8.yy",},
     {"name":"Room_0Start","order":2,"path":"rooms/Room_0Start/Room_0Start.yy",},
     {"name":"Room_2Foyer","order":3,"path":"rooms/Room_2Foyer/Room_2Foyer.yy",},
     {"name":"Room_3Livingroom","order":4,"path":"rooms/Room_3Livingroom/Room_3Livingroom.yy",},

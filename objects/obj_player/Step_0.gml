@@ -32,6 +32,7 @@ if (keyboard_check_pressed(vk_space)) {
         var item = instance_place(x, y, obj_key);
         if (item != noone) {
             carried_item = item;
+			has_key = true;
             item.owner = id;
             item.picked_up = true;
         }
@@ -41,5 +42,6 @@ if (keyboard_check_pressed(vk_space)) {
         carried_item.picked_up = false;
         carried_item.owner = noone;
         carried_item = noone;
+		has_key = false;
     }
 }

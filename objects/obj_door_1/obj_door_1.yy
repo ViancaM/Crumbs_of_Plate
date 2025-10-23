@@ -1,9 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Object8",
-  "eventList":[],
+  "%Name":"obj_door_1",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object8",
+  "name":"obj_door_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

@@ -37,6 +37,9 @@
   "name":"Crumbs_of_Plate",
   "resources":[
     {"id":{"name":"README","path":"notes/README/README.yy",},},
+    {"id":{"name":"obj_boulder","path":"objects/obj_boulder/obj_boulder.yy",},},
+    {"id":{"name":"obj_door_1","path":"objects/obj_door_1/obj_door_1.yy",},},
+    {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_enemy_parent","path":"objects/obj_enemy_parent/obj_enemy_parent.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_key","path":"objects/obj_key/obj_key.yy",},},
@@ -44,7 +47,6 @@
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},},
     {"id":{"name":"obj_start_button","path":"objects/obj_start_button/obj_start_button.yy",},},
     {"id":{"name":"objCamera","path":"objects/objCamera/objCamera.yy",},},
-    {"id":{"name":"Object8","path":"objects/Object8/Object8.yy",},},
     {"id":{"name":"Room_0Start","path":"rooms/Room_0Start/Room_0Start.yy",},},
     {"id":{"name":"Room_1Tutorial","path":"rooms/Room_1Tutorial/Room_1Tutorial.yy",},},
     {"id":{"name":"Room_2Foyer","path":"rooms/Room_2Foyer/Room_2Foyer.yy",},},
