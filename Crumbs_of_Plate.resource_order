@@ -27,6 +27,7 @@
     {"name":"Room_3Livingroom","order":4,"path":"rooms/Room_3Livingroom/Room_3Livingroom.yy",},
     {"name":"Boulder","order":4,"path":"sprites/Boulder/Boulder.yy",},
     {"name":"Door","order":5,"path":"sprites/Door/Door.yy",},
+    {"name":"Hole","order":1,"path":"sprites/Hole/Hole.yy",},
     {"name":"Key","order":3,"path":"sprites/Key/Key.yy",},
     {"name":"spr_start_bg","order":1,"path":"sprites/spr_start_bg/spr_start_bg.yy",},
     {"name":"spr_start_button","order":2,"path":"sprites/spr_start_button/spr_start_button.yy",},
