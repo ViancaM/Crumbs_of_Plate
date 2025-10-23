@@ -22,3 +22,23 @@ else{
         
     else if (sprite_index == spr_player2_walk_down) sprite_index = spr_player2_idle_down;
 }
+
+// Check for interaction key (space bar used here)
+carried_item = noone;
+
+if (keyboard_check_pressed(vk_shift)) {
+    if (carried_item == noone) {
+        // Attempt to pick up item under player
+        var item = instance_place(x, y, obj_key);
+        if (item != noone) {
+            carried_item = item;
+            item.owner = id;
+            item.picked_up = true;
+        }
+    } else {
+        // Drop currently carried item
+        carried_item.picked_up = false;
+        carried_item.owner = noone;
+        carried_item = noone;
+    }
+}
