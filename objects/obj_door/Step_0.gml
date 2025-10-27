@@ -4,7 +4,7 @@ var proximity_distance = 50; // Adjust as needed
 //check if both players exist
 if (instance_exists(obj_player) && instance_exists(obj_player2)) {
     
-    // Get the two player instances
+    //get the two player instances
     var p1 = instance_find(obj_player, 0);
     var p2 = instance_find(obj_player2, 0);
     
