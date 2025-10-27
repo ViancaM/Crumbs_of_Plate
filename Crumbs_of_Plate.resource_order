@@ -28,6 +28,7 @@
     {"name":"obj_switch_gret","order":13,"path":"objects/obj_switch_gret/obj_switch_gret.yy",},
     {"name":"obj_switch_hans","order":14,"path":"objects/obj_switch_hans/obj_switch_hans.yy",},
     {"name":"obj_switch","order":15,"path":"objects/obj_switch/obj_switch.yy",},
+    {"name":"obj_witch","order":18,"path":"objects/obj_witch/obj_witch.yy",},
     {"name":"objCamera","order":2,"path":"objects/objCamera/objCamera.yy",},
     {"name":"Room_0Start","order":2,"path":"rooms/Room_0Start/Room_0Start.yy",},
     {"name":"Room_2Foyer","order":3,"path":"rooms/Room_2Foyer/Room_2Foyer.yy",},

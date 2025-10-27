@@ -1,17 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy",
+  "%Name":"obj_chaser",
   "eventList":[],
   "managed":true,
-  "name":"obj_enemy",
+  "name":"obj_chaser",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_enemy_parent",
-    "path":"objects/obj_enemy_parent/obj_enemy_parent.yy",
+    "name":"obj_bottle",
+    "path":"objects/obj_bottle/obj_bottle.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
