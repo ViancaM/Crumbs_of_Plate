@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Filters",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Filters",
+  "parent":{
+    "name":"Crumbs_of_Plate",
+    "path":"Crumbs_of_Plate.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
