@@ -1,6 +1,6 @@
 if (instance_exists(obj_dialog)) exit;
 
-if (keyboard_check_pressed(vk_shift))
+if (keyboard_check_pressed(vk_enter))
 {
     create_dialog([
 	{
