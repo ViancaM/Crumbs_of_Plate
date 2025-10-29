@@ -31,6 +31,7 @@
     {"name":"obj_switch_gret","order":13,"path":"objects/obj_switch_gret/obj_switch_gret.yy",},
     {"name":"obj_switch_hans","order":14,"path":"objects/obj_switch_hans/obj_switch_hans.yy",},
     {"name":"obj_switch","order":15,"path":"objects/obj_switch/obj_switch.yy",},
+    {"name":"obj_title1","order":26,"path":"objects/obj_title1/obj_title1.yy",},
     {"name":"obj_transition_parent","order":19,"path":"objects/obj_transition_parent/obj_transition_parent.yy",},
     {"name":"obj_transition_pixelate","order":20,"path":"objects/obj_transition_pixelate/obj_transition_pixelate.yy",},
     {"name":"obj_witch","order":18,"path":"objects/obj_witch/obj_witch.yy",},
@@ -50,6 +51,7 @@
     {"name":"spr_play","order":3,"path":"sprites/spr_play/spr_play.yy",},
     {"name":"spr_start_bg","order":1,"path":"sprites/spr_start_bg/spr_start_bg.yy",},
     {"name":"spr_start_button","order":2,"path":"sprites/spr_start_button/spr_start_button.yy",},
+    {"name":"spr_title","order":6,"path":"sprites/spr_title/spr_title.yy",},
     {"name":"Sprite39","order":17,"path":"sprites/Sprite39/Sprite39.yy",},
   ],
 }
