@@ -29,10 +29,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"Door",
-    "path":"sprites/Door/Door.yy",
+    "name":"spr_door_closed",
+    "path":"sprites/spr_door_closed/spr_door_closed.yy",
   },
   "spriteMaskId":null,
   "visible":true,
