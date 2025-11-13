@@ -53,7 +53,7 @@
     {"name":"spr_play","order":3,"path":"sprites/spr_play/spr_play.yy",},
     {"name":"spr_start_bg","order":1,"path":"sprites/spr_start_bg/spr_start_bg.yy",},
     {"name":"spr_start_button","order":2,"path":"sprites/spr_start_button/spr_start_button.yy",},
-    {"name":"spr_title","order":6,"path":"sprites/spr_title/spr_title.yy",},
+    {"name":"spr_title_new","order":10,"path":"sprites/spr_title_new/spr_title_new.yy",},
     {"name":"Sprite39","order":17,"path":"sprites/Sprite39/Sprite39.yy",},
   ],
 }
