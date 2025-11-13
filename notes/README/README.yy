@@ -1,7 +1,8 @@
 {
-  "$GMNotes":"",
+  "$GMNotes":"v1",
   "%Name":"README",
   "name":"README",
+  "openedOnFirstLoad":true,
   "parent":{
     "name":"Crumbs_of_Plate",
     "path":"Crumbs_of_Plate.yyp",
