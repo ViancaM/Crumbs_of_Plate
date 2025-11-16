@@ -1,6 +1,10 @@
+// Witch Create Event
+move_speed = 1.3;
+
 target_x = x;
 target_y = y;
 
-alarm[0] = 60;
-
 tilemap = layer_tilemap_get_id("Tiles_Col");
+
+
+chase_range = 200;

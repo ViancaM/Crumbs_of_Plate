@@ -1,13 +1,15 @@
-move_speed = 1.5;
-
+move_speed = 1.2;
 tilemap = layer_tilemap_get_id("Tiles_Col");
-
-carried_item = noone;  // Reference to currently carried item
-
-// obj_player Create Event
+carried_item = noone;
 has_key = false;
 
-// Create Event
 if (!variable_global_exists("has_key")) {
     global.has_key = 0;
 }
+
+max_hp = 100;
+hp = max_hp; 
+
+in_jar = false;
+jar_instance = noone;
+captured = false;

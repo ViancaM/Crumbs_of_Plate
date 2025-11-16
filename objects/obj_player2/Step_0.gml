@@ -1,7 +1,56 @@
+if (hp <= 0 && !captured && !in_jar)
+{
+    jar_instance = instance_create_layer(x, y, "Instances", obj_jar);
+    jar_instance.captured_player = id;
+
+    captured = true;
+    in_jar = true;
+    visible = false;
+
+}
+
+if (in_jar)
+{
+    if (!instance_exists(jar_instance)) {
+ 
+        jar_instance = instance_create_layer(x, y, "Instances", obj_jar);
+        jar_instance.captured_player = id;
+    }
+    
+    var _hor = (keyboard_check(vk_right) - keyboard_check(vk_left));
+    var _ver = (keyboard_check(vk_down) - keyboard_check(vk_up));
+    
+    if (_hor != 0 || _ver != 0) {
+        var move_x = _hor * 0.8;
+        var move_y = _ver * 0.8;
+        
+        var old_x = x; 
+        var old_y = y;
+        
+        if (place_free(x + move_x, y)) {
+            x += move_x;
+        }
+        if (place_free(x, y + move_y)) {
+            y += move_y;
+        }
+    }
+
+    if (instance_exists(jar_instance)) {
+        jar_instance.x = x;
+        jar_instance.y = y;
+    }
+    
+    exit; 
+}
+
 var _hor = keyboard_check(vk_right) - keyboard_check(vk_left);
 var _ver = keyboard_check(vk_down) - keyboard_check(vk_up);
 
-move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, obj_boulder, obj_door]);
+var d = instance_find(obj_door, 0);
+if (d != noone && !d.door_open)
+    move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, obj_boulder, obj_door, obj_door_1, obj_door_2]);
+else
+    move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, obj_boulder]);
 
 if (_hor != 0 or _ver != 0){
     if(_ver > 0) sprite_index = spr_player2_walk_down;
@@ -53,5 +102,16 @@ if (keyboard_check_pressed(vk_shift)) {
 
             global.has_key = 1;
         }
+    }
+}
+
+if (instance_exists(obj_player) && instance_exists(obj_player2))
+{
+    var p1 = obj_player.in_jar;
+    var p2 = obj_player2.in_jar;
+
+    if (p1 && p2)
+    {
+        room_goto(Room_4DemoEnd);
     }
 }
