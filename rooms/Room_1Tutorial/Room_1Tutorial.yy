@@ -46,6 +46,7 @@
     {"name":"inst_7F36847D","path":"rooms/Room_1Tutorial/Room_1Tutorial.yy",},
     {"name":"inst_680C763D","path":"rooms/Room_1Tutorial/Room_1Tutorial.yy",},
     {"name":"inst_7DA426E1","path":"rooms/Room_1Tutorial/Room_1Tutorial.yy",},
+    {"name":"inst_452A553D","path":"rooms/Room_1Tutorial/Room_1Tutorial.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -90,6 +91,7 @@
         {"$GMRInstance":"v4","%Name":"inst_7F36847D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7F36847D","objectId":{"name":"obj_boulder","path":"objects/obj_boulder/obj_boulder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":1248.0,"y":608.0,},
         {"$GMRInstance":"v4","%Name":"inst_680C763D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_680C763D","objectId":{"name":"obj_boulder","path":"objects/obj_boulder/obj_boulder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":1280.0,"y":608.0,},
         {"$GMRInstance":"v4","%Name":"inst_7DA426E1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7DA426E1","objectId":{"name":"obj_boulder","path":"objects/obj_boulder/obj_boulder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":1312.0,"y":640.0,},
+        {"$GMRInstance":"v4","%Name":"inst_452A553D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_452A553D","objectId":{"name":"obj_sign","path":"objects/obj_sign/obj_sign.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":0.4617348,"x":1060.0,"y":475.06122,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_Col","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_Col","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":48,"SerialiseWidth":86,"TileCompressedData":[
           1,2,-22,0,-8,-2147483648,4,10,-2147483648,-2147483648,2,-13,-2147483648,6,2,-2147483648,-2147483648,

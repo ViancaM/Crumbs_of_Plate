@@ -1,7 +1,6 @@
 if (instance_exists(captured_player))
 {
     var p = captured_player;
-
     draw_sprite_ext(
         p.sprite_index,
         p.image_index,
