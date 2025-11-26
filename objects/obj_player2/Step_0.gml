@@ -1,3 +1,8 @@
+if (global.dialog_active) {
+    exit;
+}
+
+
 if (hp <= 0 && !captured && !in_jar)
 {
     jar_instance = instance_create_layer(x, y, "Instances", obj_jar);
@@ -48,9 +53,9 @@ var _ver = keyboard_check(vk_down) - keyboard_check(vk_up);
 
 var d = instance_find(obj_door, 0);
 if (d != noone && !d.door_open)
-    move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, obj_boulder, obj_door, obj_door_1, obj_door_2]);
+    move_and_collide(_hor * move_speed, _ver * move_speed, [obj_boulder, obj_sign, obj_door, obj_door_1, obj_door_2]);
 else
-    move_and_collide(_hor * move_speed, _ver * move_speed, [tilemap, obj_boulder]);
+    move_and_collide(_hor * move_speed, _ver * move_speed, [obj_boulder, obj_sign]);
 
 if (_hor != 0 or _ver != 0){
     if(_ver > 0) sprite_index = spr_player2_walk_down;

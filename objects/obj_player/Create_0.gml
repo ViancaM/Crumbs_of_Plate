@@ -7,6 +7,7 @@ if (!variable_global_exists("has_key")) {
     global.has_key = 0;
 }
 
+
 max_hp = 100;
 hp = max_hp; 
 

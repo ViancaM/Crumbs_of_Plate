@@ -1,3 +1,4 @@
-// Sign create event
 dialog_created = false;
-interact_range = 30; // How close players need to be to interact
+interact_range = 50;
+player_near = false;
+interact_cooldown = 0;

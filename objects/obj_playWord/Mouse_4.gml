@@ -1,1 +1,1 @@
-room_goto(Room_1Tutorial);
+room_goto(Room_CutScene);
