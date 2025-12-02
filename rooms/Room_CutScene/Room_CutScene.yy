@@ -18,7 +18,7 @@
   "name":"Room_CutScene",
   "parent":{
     "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "path":"folders/Scripts/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

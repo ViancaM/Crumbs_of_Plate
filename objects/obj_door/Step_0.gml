@@ -27,9 +27,12 @@ if (!door_open && !opening && both_near && key_nearby) {
 
 // Finish animation
 if (opening && image_index >= image_number - 1) {
+	var target = Room_1Tutorial;
+	if (room == Room_1Tutorial) target = Room_2Foyer;
+	TransitionStart(target, sqFadeOut, sqFadeIn);
     sprite_index = spr_door_open;
     image_speed = 0.2;
     door_open = true;
     opening = false;
-    room_goto(Room_2Foyer);
+    
 }
