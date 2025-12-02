@@ -1,62 +1,42 @@
+draw_clear(c_black);
 
-if (keyboard_check_pressed(vk_space) && fade_dir == 0) {
-    fade_dir = -1;
-}
-
-if (fade_dir != 0) {
-    fade += fade_dir * 0.05;
-
-    if (fade <= 0) {
-        fade = 0;
-        cutscene_step++;
-        fade_dir = 1; 
-    }
-
-    if (fade >= 1) {
-        fade = 1;
-        fade_dir = 0;
-    }
-}
-draw_set_color(c_black);
-draw_rectangle(0,0,room_width,room_height,false);
-
+draw_sprite(spr_storybook, 0, book_x, book_y);
 
 draw_set_alpha(fade);
 
-var scale = 4;
+var safe_page = clamp(page, 0, pages_count - 1);
 
-switch (cutscene_step)
-{
-    case 0:
-        draw_set_color(c_white);
-        draw_text(text_x, text_y,
-            "Everyone knows the story of Hansel and Gretel..."
-        );
+var art_sprite = page_art[safe_page];
+var art_w = sprite_get_width(art_sprite);
+var art_h = sprite_get_height(art_sprite);
+draw_sprite(art_sprite, 0, art_center_x - art_w * 0.5, art_center_y - art_h * 0.5);
 
-        draw_sprite_ext(spr_player_silh, 0, art_x, art_y, scale, scale, 0, c_white, fade);
-        draw_sprite_ext(spr_player2_silh, 0, art_x + 150, art_y, scale, scale, 0, c_white, fade);
-    break;
 
-    case 1:
-        draw_set_color(c_white);
-        draw_text(text_x, text_y,
-            "But this story… is different."
-        );
+if (safe_page == 0 && show_players) {
+    draw_sprite_ext(h_sprite, floor(h_frame), h_x, h_y, 1.5, 1.5, 0, c_white, fade);
+    draw_sprite_ext(g_sprite, floor(g_frame), g_x, g_y, 1.5, 1.5, 0, c_white, fade);
+}
 
-        draw_sprite_ext(spr_player_silh, 1, art_x, art_y, scale, scale, 0, c_white, fade);
-        draw_sprite_ext(spr_player2_silh, 1, art_x + 150, art_y, scale, scale, 0, c_white, fade);
-    break;
 
-    case 2:
-        draw_set_color(c_white);
-        draw_text(text_x, text_y,
-            "This one begins in the woods..."
-        );
-    break;
+draw_set_color(make_color_rgb(70, 45, 20));
 
-    case 3:
-        room_goto(Room_1Tutorial);
-    break;
+var left_text_right = book_x + book_w * 0.65; 
+var left_text_bottom = book_y + book_h * 0.90; 
+var wrap_width = left_text_right - text_x;
+
+var lines = string_split(page_text[safe_page], "\n"); 
+var y_pos = text_y;
+var line_height = 18; 
+
+for (var i = 0; i < array_length(lines); i++) {
+    var line = lines[i];
+
+    draw_text_ext(text_x, y_pos, line, 4, wrap_width);
+
+    y_pos += line_height;
+
+    if (y_pos + line_height > left_text_bottom) break;
 }
 
 draw_set_alpha(1);
+draw_set_color(c_white);
