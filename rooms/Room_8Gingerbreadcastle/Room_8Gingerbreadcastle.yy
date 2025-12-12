@@ -1,14 +1,14 @@
 {
   "$GMRoom":"v1",
-  "%Name":"Room_8Magicroom",
+  "%Name":"Room_8Gingerbreadcastle",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_2CD8F507","path":"rooms/Room_8Magicroom/Room_8Magicroom.yy",},
-    {"name":"inst_5A4F1081","path":"rooms/Room_8Magicroom/Room_8Magicroom.yy",},
-    {"name":"inst_1402439E","path":"rooms/Room_8Magicroom/Room_8Magicroom.yy",},
+    {"name":"inst_2CD8F507","path":"rooms/Room_8Gingerbreadcastle/Room_8Gingerbreadcastle.yy",},
+    {"name":"inst_5A4F1081","path":"rooms/Room_8Gingerbreadcastle/Room_8Gingerbreadcastle.yy",},
+    {"name":"inst_1402439E","path":"rooms/Room_8Gingerbreadcastle/Room_8Gingerbreadcastle.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -28,7 +28,7 @@
         ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1_New","path":"tilesets/TileSet1_New/TileSet1_New.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"Room_8Magicroom",
+  "name":"Room_8Gingerbreadcastle",
   "parent":{
     "name":"Rooms",
     "path":"folders/Scripts/Rooms.yy",
