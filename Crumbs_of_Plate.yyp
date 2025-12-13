@@ -35,7 +35,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.212",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"Crumbs_of_Plate",
   "resources":[
@@ -108,6 +108,10 @@
     {"id":{"name":"spr_forest_enter","path":"sprites/spr_forest_enter/spr_forest_enter.yy",},},
     {"id":{"name":"spr_jar","path":"sprites/spr_jar/spr_jar.yy",},},
     {"id":{"name":"spr_lava","path":"sprites/spr_lava/spr_lava.yy",},},
+    {"id":{"name":"spr_npc1_down","path":"sprites/spr_npc1_down/spr_npc1_down.yy",},},
+    {"id":{"name":"spr_npc1_left","path":"sprites/spr_npc1_left/spr_npc1_left.yy",},},
+    {"id":{"name":"spr_npc1_right","path":"sprites/spr_npc1_right/spr_npc1_right.yy",},},
+    {"id":{"name":"spr_npc1_up","path":"sprites/spr_npc1_up/spr_npc1_up.yy",},},
     {"id":{"name":"spr_npc1","path":"sprites/spr_npc1/spr_npc1.yy",},},
     {"id":{"name":"spr_play","path":"sprites/spr_play/spr_play.yy",},},
     {"id":{"name":"spr_player_idle_down","path":"sprites/spr_player_idle_down/spr_player_idle_down.yy",},},
