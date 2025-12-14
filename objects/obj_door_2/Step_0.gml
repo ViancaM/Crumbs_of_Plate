@@ -33,5 +33,3 @@ if (opening && image_index >= image_number - 1) {
     opening = false;
     room_goto(target_room);
 }
-
-//blheblebehkqfscf

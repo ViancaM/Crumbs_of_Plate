@@ -35,12 +35,17 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.2.212",
   },
   "name":"Crumbs_of_Plate",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"README","path":"notes/README/README.yy",},},
+    {"id":{"name":"obj_bordercabin","path":"objects/obj_bordercabin/obj_bordercabin.yy",},},
+    {"id":{"name":"obj_bordercobblestone","path":"objects/obj_bordercobblestone/obj_bordercobblestone.yy",},},
+    {"id":{"name":"obj_borderdarkness","path":"objects/obj_borderdarkness/obj_borderdarkness.yy",},},
+    {"id":{"name":"obj_bordertree","path":"objects/obj_bordertree/obj_bordertree.yy",},},
+    {"id":{"name":"obj_borderwoodfloor","path":"objects/obj_borderwoodfloor/obj_borderwoodfloor.yy",},},
     {"id":{"name":"obj_bottle","path":"objects/obj_bottle/obj_bottle.yy",},},
     {"id":{"name":"obj_boulder","path":"objects/obj_boulder/obj_boulder.yy",},},
     {"id":{"name":"obj_chaser","path":"objects/obj_chaser/obj_chaser.yy",},},

@@ -57,9 +57,9 @@ var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 var d = instance_find(obj_door, 0);
 if (d != noone && !d.door_open)
-    move_and_collide(_hor * move_speed, _ver * move_speed, [obj_boulder, obj_sign, obj_door, obj_door_1, obj_door_2]);
+    move_and_collide(_hor * move_speed, _ver * move_speed, [obj_boulder, obj_bordercabin, obj_bordercobblestone, obj_borderdarkness, obj_bordertree, obj_borderwoodfloor, obj_sign, obj_door, obj_door_1, obj_door_2]);
 else
-    move_and_collide(_hor * move_speed, _ver * move_speed, [obj_boulder, obj_sign]);
+    move_and_collide(_hor * move_speed, _ver * move_speed, [obj_boulder, obj_sign, obj_bordercabin, obj_bordercobblestone, obj_borderdarkness, obj_bordertree, obj_borderwoodfloor]);
 
 
 if (_hor != 0 or _ver != 0){
