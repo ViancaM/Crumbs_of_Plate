@@ -17,9 +17,11 @@
     {"name":"Timelines","order":14,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_bordebookshelf1","order":41,"path":"objects/obj_bordebookshelf1/obj_bordebookshelf1.yy",},
     {"name":"obj_bordercabin","order":33,"path":"objects/obj_bordercabin/obj_bordercabin.yy",},
     {"name":"obj_bordercobblestone","order":34,"path":"objects/obj_bordercobblestone/obj_bordercobblestone.yy",},
     {"name":"obj_borderdarkness","order":32,"path":"objects/obj_borderdarkness/obj_borderdarkness.yy",},
+    {"name":"obj_bordergingerbread","order":40,"path":"objects/obj_bordergingerbread/obj_bordergingerbread.yy",},
     {"name":"obj_bordertree","order":31,"path":"objects/obj_bordertree/obj_bordertree.yy",},
     {"name":"obj_borderwoodfloor","order":35,"path":"objects/obj_borderwoodfloor/obj_borderwoodfloor.yy",},
     {"name":"obj_boulder","order":9,"path":"objects/obj_boulder/obj_boulder.yy",},
