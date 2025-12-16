@@ -36,7 +36,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.212",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"Crumbs_of_Plate",
   "resources":[
@@ -95,6 +95,7 @@
     {"id":{"name":"Transitions","path":"scripts/Transitions/Transitions.yy",},},
     {"id":{"name":"sqFadeIn","path":"sequences/sqFadeIn/sqFadeIn.yy",},},
     {"id":{"name":"sqFadeOut","path":"sequences/sqFadeOut/sqFadeOut.yy",},},
+    {"id":{"name":"Better_key","path":"sprites/Better_key/Better_key.yy",},},
     {"id":{"name":"Boulder","path":"sprites/Boulder/Boulder.yy",},},
     {"id":{"name":"Hole","path":"sprites/Hole/Hole.yy",},},
     {"id":{"name":"Key","path":"sprites/Key/Key.yy",},},

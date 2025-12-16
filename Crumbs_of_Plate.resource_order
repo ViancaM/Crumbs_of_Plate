@@ -63,6 +63,7 @@
     {"name":"Filters","order":15,"path":"scripts/Filters/Filters.yy",},
     {"name":"Transitions","order":2,"path":"scripts/Transitions/Transitions.yy",},
     {"name":"sqFadeIn","order":1,"path":"sequences/sqFadeIn/sqFadeIn.yy",},
+    {"name":"Better_key","order":46,"path":"sprites/Better_key/Better_key.yy",},
     {"name":"Boulder","order":4,"path":"sprites/Boulder/Boulder.yy",},
     {"name":"Hole","order":1,"path":"sprites/Hole/Hole.yy",},
     {"name":"Key","order":3,"path":"sprites/Key/Key.yy",},
