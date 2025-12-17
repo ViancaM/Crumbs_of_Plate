@@ -51,7 +51,7 @@ if (in_jar)
 var _hor = keyboard_check(vk_right) - keyboard_check(vk_left);
 var _ver = keyboard_check(vk_down) - keyboard_check(vk_up);
 
-var d = instance_find(obj_door, 0);
+var d = instance_place(x + _hor * move_speed, y + _ver * move_speed, obj_door);
 if (d != noone && !d.door_open)
     move_and_collide(_hor * move_speed, _ver * move_speed, [obj_boulder, obj_bordercabin, obj_bordercobblestone, obj_borderdarkness, obj_bordertree, obj_borderwoodfloor, obj_sign, obj_door, obj_door_1, obj_door_2, obj_door_3, obj_door_4, obj_door_5, obj_door_6]);
 else
