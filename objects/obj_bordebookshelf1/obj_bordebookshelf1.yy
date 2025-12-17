@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Better_key",
+    "path":"sprites/Better_key/Better_key.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
