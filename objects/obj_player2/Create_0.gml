@@ -1,4 +1,4 @@
-move_speed = 1.2;
+move_speed = 1.4;
 tilemap = layer_tilemap_get_id("Tiles_Col");
 carried_item = noone;
 has_key = false;

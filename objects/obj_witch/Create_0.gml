@@ -1,5 +1,5 @@
 // Witch Create Event
-move_speed = 1.3;
+move_speed = 0.9;
 
 target_x = x;
 target_y = y;

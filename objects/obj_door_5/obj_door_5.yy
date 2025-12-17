@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_key",
+  "%Name":"obj_door_5",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_key",
+  "name":"obj_door_5",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Better_key",
-    "path":"sprites/Better_key/Better_key.yy",
+    "name":"spr_door_closed",
+    "path":"sprites/spr_door_closed/spr_door_closed.yy",
   },
   "spriteMaskId":null,
   "visible":true,
