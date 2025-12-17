@@ -9,7 +9,7 @@ if (fade_dir != 0) {
     if (fade <= 0) {
         page += 1;
         if (page >= pages_count) {
-            room_goto(Room_1Tutorial);
+            room_goto(Room_0savesystem);
             exit;
         }
         page_timer = 0;
