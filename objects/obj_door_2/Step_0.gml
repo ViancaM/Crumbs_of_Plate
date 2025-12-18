@@ -28,7 +28,7 @@ if (!door_open && !opening && both_near && key_nearby) {
 // Finish animation
 if (opening && image_index >= image_number - 1) {
 	var target = Room_3Livingroom;
-	if (room == Room_3Livingroom) target = Room_4DemoEnd;
+	if (room == Room_3Livingroom) target = Room_5Hallway;
 	TransitionStart(target, sqFadeOut, sqFadeIn);
     sprite_index = spr_door_open;
     image_speed = 0.2;
