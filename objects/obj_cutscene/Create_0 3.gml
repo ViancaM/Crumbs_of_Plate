@@ -48,4 +48,4 @@ g_sprite = spr_player2_walk_right;
 h_frame = 0;
 g_frame = 0;
 
-music_id = audio_play_sound(snd_start, 1, false);
+music_id = audio_play_sound(snd_story, 1, false);

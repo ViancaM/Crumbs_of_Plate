@@ -1,5 +1,6 @@
 page_timer++;
 
+
 if (fade_dir != 0) {
     fade += fade_dir * fade_speed;
 
