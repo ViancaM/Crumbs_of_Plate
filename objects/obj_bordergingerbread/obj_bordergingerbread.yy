@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite90",
+    "path":"sprites/Sprite90/Sprite90.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

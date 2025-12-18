@@ -131,6 +131,7 @@
     {"name":"Sprite86","order":20,"path":"sprites/Sprite86/Sprite86.yy",},
     {"name":"Sprite87","order":21,"path":"sprites/Sprite87/Sprite87.yy",},
     {"name":"Sprite88","order":22,"path":"sprites/Sprite88/Sprite88.yy",},
+    {"name":"Sprite90","order":53,"path":"sprites/Sprite90/Sprite90.yy",},
     {"name":"TileSet1_New","order":2,"path":"tilesets/TileSet1_New/TileSet1_New.yy",},
     {"name":"TileSet4","order":3,"path":"tilesets/TileSet4/TileSet4.yy",},
   ],
