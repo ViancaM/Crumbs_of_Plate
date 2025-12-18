@@ -80,6 +80,7 @@
     {"id":{"name":"obj_title1","path":"objects/obj_title1/obj_title1.yy",},},
     {"id":{"name":"obj_transition_parent","path":"objects/obj_transition_parent/obj_transition_parent.yy",},},
     {"id":{"name":"obj_transition_pixelate","path":"objects/obj_transition_pixelate/obj_transition_pixelate.yy",},},
+    {"id":{"name":"obj_waterbucket","path":"objects/obj_waterbucket/obj_waterbucket.yy",},},
     {"id":{"name":"obj_witch","path":"objects/obj_witch/obj_witch.yy",},},
     {"id":{"name":"obj_witchhandleft","path":"objects/obj_witchhandleft/obj_witchhandleft.yy",},},
     {"id":{"name":"obj_witchhandright","path":"objects/obj_witchhandright/obj_witchhandright.yy",},},

@@ -50,6 +50,7 @@
     {"name":"obj_title1","order":26,"path":"objects/obj_title1/obj_title1.yy",},
     {"name":"obj_transition_parent","order":19,"path":"objects/obj_transition_parent/obj_transition_parent.yy",},
     {"name":"obj_transition_pixelate","order":20,"path":"objects/obj_transition_pixelate/obj_transition_pixelate.yy",},
+    {"name":"obj_waterbucket","order":54,"path":"objects/obj_waterbucket/obj_waterbucket.yy",},
     {"name":"obj_witch","order":18,"path":"objects/obj_witch/obj_witch.yy",},
     {"name":"obj_witchhandleft","order":43,"path":"objects/obj_witchhandleft/obj_witchhandleft.yy",},
     {"name":"obj_witchhandright","order":42,"path":"objects/obj_witchhandright/obj_witchhandright.yy",},
