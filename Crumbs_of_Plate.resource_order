@@ -68,7 +68,6 @@
     {"name":"Room_8Gingerbreadcastle","order":11,"path":"rooms/Room_8Gingerbreadcastle/Room_8Gingerbreadcastle.yy",},
     {"name":"Room_9FinalBoss","order":7,"path":"rooms/Room_9FinalBoss/Room_9FinalBoss.yy",},
     {"name":"Room_CutScene","order":6,"path":"rooms/Room_CutScene/Room_CutScene.yy",},
-    {"name":"Room_endgame","order":13,"path":"rooms/Room_endgame/Room_endgame.yy",},
     {"name":"Filters","order":15,"path":"scripts/Filters/Filters.yy",},
     {"name":"save_functions","order":1,"path":"scripts/save_functions/save_functions.yy",},
     {"name":"Transitions","order":2,"path":"scripts/Transitions/Transitions.yy",},

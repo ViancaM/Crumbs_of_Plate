@@ -99,7 +99,6 @@
     {"id":{"name":"Room_8Gingerbreadcastle","path":"rooms/Room_8Gingerbreadcastle/Room_8Gingerbreadcastle.yy",},},
     {"id":{"name":"Room_9FinalBoss","path":"rooms/Room_9FinalBoss/Room_9FinalBoss.yy",},},
     {"id":{"name":"Room_CutScene","path":"rooms/Room_CutScene/Room_CutScene.yy",},},
-    {"id":{"name":"Room_endgame","path":"rooms/Room_endgame/Room_endgame.yy",},},
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"Filters","path":"scripts/Filters/Filters.yy",},},
     {"id":{"name":"save_functions","path":"scripts/save_functions/save_functions.yy",},},
@@ -216,7 +215,6 @@
     {"roomId":{"name":"Room_6Basement","path":"rooms/Room_6Basement/Room_6Basement.yy",},},
     {"roomId":{"name":"Room_7Potionroom","path":"rooms/Room_7Potionroom/Room_7Potionroom.yy",},},
     {"roomId":{"name":"Room_8Gingerbreadcastle","path":"rooms/Room_8Gingerbreadcastle/Room_8Gingerbreadcastle.yy",},},
-    {"roomId":{"name":"Room_endgame","path":"rooms/Room_endgame/Room_endgame.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
